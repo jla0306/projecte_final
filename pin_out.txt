@@ -1,0 +1,33 @@
+COMPONENT        | PIN COMPONENT  | CONNECTAR A (ESP32-S3 / ALIMENTACIÓ)
+-----------------+----------------+-----------------------------------
+ PANTALLA TFT    | VCC            | Raïl 3V3
+                 | GND            | Raïl GND
+                 | SDA            | GPIO 11
+                 | CLK            | GPIO 12
+                 | CS             | GPIO 10
+                 | RS             | GPIO 9
+                 | RST            | GPIO 14
+-----------------+----------------+-----------------------------------
+ ÀUDIO I2S       | VIN            | Raïl 3V3
+                 | GND            | Raïl GND
+                 | SD             | Raïl 3V3
+                 | LRC            | GPIO 15
+                 | BCLK           | GPIO 16
+                 | DIN            | GPIO 17
+                 | OUT+ / OUT-    | Borns de l'Altaveu (8 Ohms 2W)
+-----------------+----------------+-----------------------------------
+ LECTOR MICROSD  | VCC            | Raïl 3V3
+                 | GND            | Raïl GND
+                 | CS             | GPIO 39
+                 | MOSI           | GPIO 35
+                 | SCK            | GPIO 36
+                 | MISO           | GPIO 37
+-----------------+----------------+-----------------------------------
+ JOYSTICK        | VCC            | Raïl 3V3
+                 | GND            | Raïl GND
+                 | X              | GPIO 4
+                 | Y              | GPIO 5
+-----------------+----------------+-----------------------------------
+ PULSADORS       | SELECT (Pin 1) | GPIO 18  [Pin 2 al Raïl GND]
+                 | BACK   (Pin 1) | GPIO 19  [Pin 2 al Raïl GND]
+-----------------+----------------+-----------------------------------
